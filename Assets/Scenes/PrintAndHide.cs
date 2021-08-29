@@ -12,7 +12,8 @@ public class PrintAndHide : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+        gameObject.tag = "Red";
+        gameObject.tag = "Blue";
     }
 
     // Update is called once per frame
